@@ -1,24 +1,7 @@
 //════════════════════════════//
-//If you want to recode, reupload
-//or copy the codes/script,
-//pls give credit
-//no credit? i will take action immediately
-//© 2022 Xeon Bot Inc. Cheems Bot MD
+//Recode By ArullOfc 
+//Berasal dari sc Xeon Bot Inc. Cheems Bot MD
 //Thank you to Lord Buddha, Family and Myself
-//════════════════════════════//
-//recode kar ke youtube pe upload kar rhe ya
-//codes copy kar ke apne script me dal rhe
-//hai to, description me xeon ka yt channel
-// ka link paste kr dena as a cradit or github 
-//repo me bhi tag kardena baki jo
-//bhi karna hai apki marzi, thank you!🦄
-//════════════════════════════//
-//If you recode and uploading on your channel
-//or copy pasting the codes in ur script, 
-//i give permission to do as long as you
-//put Xeons youtube channel link in the video
-//description and tag me on githuh repo, 
-//thank you🦄
 //════════════════════════════//
 
 const fs = require("fs")
@@ -28,8 +11,8 @@ const chalk = require("chalk")
 global.autoTyping = false //auto tying in gc (true to on, false to off)
 global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to off)
 global.autoReadGc = true //auto reading in gc (true to on, false to off)
-global.autoReadAll = false // auto reading in all pchat gc and status (true to on, false to off)
-global.autoRecord = false //auto recording (true to on, false to off)
+global.autoReadAll = true // auto reading in all pchat gc and status (true to on, false to off)
+global.autoRecord = true //auto recording (true to on, false to off)
 global.available = true //auto available (true to on, false to off)
 
 //documents variants
@@ -41,26 +24,26 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['6285850539404'] //ur owner number
-global.ownername = "6285850539404"
-global.ytname = "YT:https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ" //ur yt chanel name
-global.socialm = "GitHub: Jarot" //ur github or insta name
-global.location = "India, Mizoram, Aizawl" //ur location
+global.owner = ['6285822347348'] //ur owner number
+global.ownername = "ArullOfc"
+global.ytname = "YT:ARULL OFC " //ur yt chanel name
+global.socialm = "GitHub: Warikrr" //ur github or insta name
+global.location = "Indonesia, Kalimantan Selatan, Kotabaru" //ur location
 
 //bot bombdy
-global.botname = "𝐑𝐢𝐬𝐦𝐚-ᴍᴅ᭄" //ur bot name
-global.websitex = "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ" //ur website
+global.botname = "ArullBotz" //ur bot name
+global.websitex = "https://youtube.com/channel/UC1ikkqsPvtWuE_QonsET1yg" //ur website
 global.vidmenu = { url: 'https://a.uguu.se/eFNTvNt.mp4' } //gif and video menu
-global.packname = "𝐑𝐢𝐬𝐦𝐚-ᴍᴅ᭄ Stickers\n\n\n\n\n\n\n🦄🦄🦄 "
-global.author = "𝐑𝐢𝐬𝐦𝐚-ᴍᴅ᭄"
-global.themeemoji = "🐶"
-global.reactmoji = "😘"
-global.ownertag = ['6285850539404'] //ur owner tag
-global.ownernummenu = ['6285850539404'] //ur owner number in menu and all
-global.watermark = "𝐑𝐢𝐬𝐦𝐚-ᴍᴅ᭄." //ur watermark
-global.botscript = "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ"
-global.linkz1 = ""
-global.linkz2 = ""
+global.packname = "Sticker By"
+global.author = "ArullBotz"
+global.themeemoji = "📀"
+global.reactmoji = "🗿"
+global.ownertag = ['ArullOfc'] //ur owner tag
+global.ownernummenu = ['6285822347348'] //ur owner number in menu and all
+global.watermark = "ArullBotz" //ur watermark
+global.botscript = "https://youtu.be/Gr6yuCbSGTI"
+global.linkz1 = "https://youtu.be/Gr6yuCbSGTI"
+global.linkz2 = "https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKASl"
 
 //Bot theme media
 global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
@@ -95,14 +78,14 @@ global.antitags = true
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.mess = {
     success: 'Done✓',
-    admin: 'This feature is only for admins!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This feature is only for owner',
-    group: 'This feature is only for groups!',
-    private: 'This feature is only for private chats!',
-    bot: 'This feature is only for bot',
-    wait: 'In process...',
-    linkm: 'Where is the link?',
+    admin: '*Khusus Admin*',
+    botAdmin: '*Bot Bukan Admin*',
+    owner: '*Khusus Pemilik Bot*',
+    group: '*Khusus Didalam Group*',
+    private: '*Khusus Chat Private*',
+    bot: '*Khusus Yang Jadibot*',
+    wait: '*Sabar...Orang sabar disayang janda*',
+    linkm: '*Linknya Mana?*',
     error: 'Error!',
     ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
     nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
